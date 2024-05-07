@@ -1,0 +1,86 @@
+.details {
+  margin-top: 30px;
+}
+
+.h3{
+  margin-top: 30px;
+}
+
+img + .h4,
+div + .h4{
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+
+.h4 + .social,
+.h4 + .blockquote{
+  margin-top: 30px;
+}
+
+dl + p{
+  margin-top: 30px;
+
+}
+
+.h3 + p{
+  margin-top: 30px;
+  
+}
+
+
+.swatch + img{
+  margin-top: 30px;
+  
+}
+
+
+
+
+.tiles{
+  margin-top: 30px;
+}
+
+.swatch{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.blockquote + .cite{
+	margin-top: 5px;
+}
+
+
+.header + .h1{
+/*  background-color: pink;*/
+  margin-top: 20px;
+
+}
+
+
+.footer{
+  margin-top: 30px;
+  padding-top: 5px;
+
+
+}
+
+
+
+.blockquote{
+	position: relative;
+}
+.blockquote:before {
+  content: '“';
+  position: absolute;
+  left: -8px;
+}
+.blockquote:after {
+  content: '”';
+}
+
+
+.blockquote,
+.cite{
+	display: block;
+}

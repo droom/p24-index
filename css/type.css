@@ -1,0 +1,90 @@
+
+ body{
+     font-size: 16px;
+     line-height: 18px;
+  font-family: "Inter", sans-serif;
+  font-feature-settings: "calt";
+  webkit-font-feature-settings: "calt";
+  moz-font-feature-settings: "calt";
+  font-variant-ligatures: contextual;
+}
+
+strong{
+  font-weight: 550;
+}
+
+.caps{
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+.h3 {
+/*  font-size: 1.2rem;*/
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.35em;
+/*  max-width: 500px;*/
+}
+
+.h4{
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.15rem;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+
+
+
+.blockquote {
+  font-size: 1rem;
+  line-height: 1.35em;
+  line-height: 1.38em;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.35em;
+  line-height: 1.38em;
+}
+
+.h5,
+.nav,
+table.archive thead th
+ {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 550;
+  letter-spacing: 0.08rem;
+  line-height: 1.35em;
+  overflow: none;
+}
+
+small,
+.archive {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+
+.cite,
+.details {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.15rem;
+  font-style: normal;
+}
+
+
+.intro{
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 28px;
+  width: 700px;
+  margin: 20px 0 30px 0;
+}

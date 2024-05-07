@@ -1,0 +1,81 @@
+ html {
+     box-sizing: border-box;
+}
+ *, *:before, *:after {
+     box-sizing: inherit;
+}
+ ::selection {
+     background: rgba(200,0,0,0.1);
+}
+ body{
+     background-color: rgb(217, 217, 217);
+     color: #111;
+     font-size: 1rem;
+     line-height: 2rem;
+}
+ body, nav, dl, dt, dd, ul, ol, li, 
+ h1, h2, h3, h4, h5, 
+ p, a, blockquote, cite{
+     margin: 0;
+     padding: 0;
+}
+
+a{
+     text-decoration: none;
+     color: #000;
+     }
+
+a:hover{
+     text-decoration: none;
+     color: green;
+     }
+
+a:hover img{
+     border: 2px solid green;
+     }
+
+a img{
+    border: 2px solid black;
+}
+
+
+hr
+{
+  padding: 0;
+  margin: 25px 0;
+  height: 1px;
+  background: none;
+  border-top: 1px solid rgba(0,0,0,0.3);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+
+.wrap{
+     max-width: 970px;
+     width: 90vw;
+     margin: auto;
+}
+
+.blockquote,
+.project p,
+.project .h2,
+.project .h3{
+     width: 700px;
+}
+
+.project img{
+     max-width: 700px;
+}
+
+video.max,
+img.max{
+     width: 100%;
+}
+
+.showreel{
+    mix-blend-mode: multiply;
+}
+
+
